@@ -1,3 +1,5 @@
+Processed a 1.2GB File in 16.7s, could be faster, could be way slower.
+
 # Installation
 
 ```bash
