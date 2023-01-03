@@ -15,7 +15,12 @@ $ masscan-xml-parser a.xml
 1672698324 0.0.0.2 ipv4 tcp 8080 open syn-ack 49
 1672705424 0.0.0.3 ipv4 tcp 80 open syn-ack 51
 1672703900 0.0.0.4 ipv4 tcp 443 open syn-ack 58
-$
+$ masscan-xml-parser a.xml |  awk '{print $2}'
+0.0.0.0
+0.0.0.1
+0.0.0.2
+0.0.0.3
+0.0.0.4
 ```
 
 Sample input:
