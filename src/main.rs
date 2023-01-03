@@ -65,7 +65,5 @@ fn main() -> Result<(), Box<dyn Error>> {
         println!("");
     });
 
-    println!("finished reading file");
-
     Ok(())
 }
